@@ -1,5 +1,8 @@
 mvn archetype:generate -DgroupId=com.example -DartifactId=HelloMaven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 cd HelloMaven
+
+add build plugins to the pom.xml file
+
 mvn compile
 mvn test
 mvn package
